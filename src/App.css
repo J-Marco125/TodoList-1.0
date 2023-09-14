@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.home {
+    background: rgb(2, 0, 36);
+    background: linear-gradient( 125deg, rgba(2, 0, 36, 1) 0%, rgba(9, 111, 121, 1) 71%, rgba(0, 212, 255, 1) 100%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.wel-text {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-shadow: 10px 10px 15px #000;
+}
+
+.home-btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 15px #000;
+    background: rgba(10, 88, 88, 0.95);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.home-btn:hover {
+    transform: scale(1.02);
+}
+
+.Todolist {
+    height: 35em;
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.list::-webkit-scrollbar-track {
+    display: none;
+}
+
+.title {
+    font-weight: 800;
+    padding: 10px;
+    color: #096f79;
+}
+
+.todo-btn {
+    padding: 5px 10px 5px 10px;
+    width: 5em;
+    margin: 10px;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(10, 88, 88, 0.95);
+    border: none;
+    cursor: pointer;
+}
+
+.todo-btn:hover {
+    transform: scale(1.05);
+}
+
+.create-list-sec {
+    width: 22em;
+}
+
+.create-list-sec input {
+    width: 18em;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-box {
+    width: 22em;
+    padding: 5px 10px 5px 10px;
+    gap: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.todo-box {
+    width: 12em;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.list-btn {
+    padding: 2px 5px 2px 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 2em;
+    width: 4em;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(10, 88, 88, 0.95);
+    border: none;
+    cursor: pointer;
+}
+
+.list-btn:hover {
+    transform: scale(1.05);
+}
